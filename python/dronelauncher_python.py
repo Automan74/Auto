@@ -69,7 +69,7 @@ launch_connect=2190           #Belt position for touching the upper part
 encoders_ready = 0            #At the beggining, the encoders are not ready
 
 #Create an instance of the Flask class for the web app
-app = Flask(__name__)
+#app = Flask(__name__)
 app.debug = True
 
 #Render HTML template
