@@ -3,20 +3,20 @@ pipeline {
     stages {
 	stage('Checkout') {
 	    steps {
-		git 'https://github.com/Q2MORY17/SSRS-Drone-Launcher-Beta'
+		git 'https://github.com/Automan74/Auto.git'
 	    }
 	}
 	stage('robot -d') {
 	    steps {
 		dir("test/manual/robot") {
-		    sh 'robot -d results pitch.robot'
+		    sh 'robot -d results lift.robot'
 		}
 	    }
 	}
 	stage('run_tests.sh') {
 	    steps {
 		dir("test/manual/robot") {
-		    sh 'resources/run_tests.sh pitch.robot'
+		    sh 'resources/run_tests.sh lift.robot'
 		}
 	    }
 	}
