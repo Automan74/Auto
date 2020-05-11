@@ -1,6 +1,0 @@
-.idea
-**/__pycache__/**
-**/robot/results/**
-*.pyc
-\#*
-.dronelauncher.log
