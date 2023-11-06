@@ -3,7 +3,6 @@ import cv2 as cv
 import numpy as np
 import random
 
-
 # general parameters
 width = 900
 height = 600
