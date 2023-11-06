@@ -7,5 +7,4 @@ class Guitar:
         print("pam pam pam")
 
 
-
 my_guitar = Guitar()
