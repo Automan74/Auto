@@ -25,6 +25,7 @@ class Tree:
         self.img = image
         self.loc = location
         self.ht = 300
+
     def draw(self):
         cv.line(self.img, (self.loc,ground_level),(self.loc,self.ht),)
 
