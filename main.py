@@ -1,5 +1,6 @@
 
 
+
 class Guitar:
     def __init__(self):
         self.n_string = 6
