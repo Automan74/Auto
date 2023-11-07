@@ -3,4 +3,5 @@ def funktion():
     b = 75
     return [a,b]
 
+
 print (funktion()[0])
