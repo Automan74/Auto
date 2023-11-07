@@ -9,7 +9,6 @@ height = 600
 n_trees = 30
 ground_level = height-100
 
-
 # colours
 green, light_green, brown = (40,185,40),(25,220,0),(30,65,155)
 
